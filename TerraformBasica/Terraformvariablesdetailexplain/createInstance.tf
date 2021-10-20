@@ -5,6 +5,6 @@ resource "aws_instance" "MyFirstInstnace" {
   
 }
 
-provider "aws" {
-    region     = "us-east-2"
+tags = {
+    Name = "demoinstance"
 }
